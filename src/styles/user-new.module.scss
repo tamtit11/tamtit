@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+
+:global(.ant-form-item) {
+  margin-bottom: 20px;
+}
+
+:global(.ant-form-item-label > label) {
+  font-weight: 500;
+  color: #333;
+}
+
+:global(.ant-btn-primary) {
+  background-color: #1677ff;
+  border-color: #1677ff;
+  font-weight: 500;
+}
+
+:global(.ant-btn-primary:hover) {
+  background-color: #0958d9;
+  border-color: #0958d9;
+}
+
+:global(.ant-btn) {
+  border-radius: 6px;
+}

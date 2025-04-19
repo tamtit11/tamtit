@@ -1,0 +1,29 @@
+.back_button {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  background-image: url("../../public/icons8-login-48.png");
+}
+
+.back_button:hover {
+  transform: scale(1.1);
+}
+
+.card_title_with_icon {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* khoảng cách giữa icon và chữ */
+}
+
+.container {
+  margin: 50px auto;        
+  max-width: 1500px;        
+  width: 100%; 
+  background-color: #f5f5f5; // nền nhẹ nếu muốn
+}
+
+

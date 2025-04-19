@@ -1,0 +1,89 @@
+/* UserListing.module.css */
+
+.container {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 1100px;
+  margin-top: 50px;
+  text-indent: 250px;
+}
+
+.addButton {
+  background-color: #22c55e;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.table {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.paginationButton {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #1d72b8;
+  color: white;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tableWrapper {
+  margin: 50px auto;        
+  max-width: 1500px;        
+  width: 100%;              
+}
+
+.action_icons {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.icon_view {
+  background-image: url("../../public/icons8-eye-24.png");
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.icon_edit {
+  background-image: url("../../public/pencil.png");
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.icon_delete {
+  background-image: url("../../public/icons8-trash-50.png");
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+
+

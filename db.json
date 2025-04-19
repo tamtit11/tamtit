@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "16fd",
+      "username": "Larry",
+      "address": "Texas",
+      "role": "ba",
+      "company": "fsoft"
+    },
+    {
+      "id": "917c",
+      "username": "Nguyễn Văn An",
+      "address": "Bắc Ninh",
+      "role": "pm",
+      "company": "viettel"
+    },
+    {
+      "id": "ca1c",
+      "username": "Lê Văn Bình",
+      "address": "Đắk Lắk",
+      "role": "tester",
+      "company": "vti"
+    },
+    {
+      "id": "b4e1",
+      "username": "Hoàng Thị Chinh",
+      "address": "Đồng Nai",
+      "role": "tester",
+      "company": "cmc"
+    },
+    {
+      "id": "135a",
+      "username": "Lê Thị Quỳnh",
+      "address": "Vĩnh Long",
+      "role": "pm",
+      "company": "cmc"
+    },
+    {
+      "id": "dc10",
+      "username": "Đoàn Thị Thanh",
+      "address": "TP. Hồ Chí Minh",
+      "role": "tester",
+      "company": "vti"
+    },
+    {
+      "id": "f089",
+      "username": "Đoàn Thì Bình",
+      "address": "Tây Ninh",
+      "role": "tester",
+      "company": "vti"
+    }
+  ]
+}
